@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keshava Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Include Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Arial', sans-serif; }
+    header h1, section h2, footer p { font-family: 'Roboto', sans-serif; font-weight: 700; }
+    header p { font-size: 1.2rem; }
+    .social-icons a { margin-right: 10px; }
+    section { margin-top: 80px; padding: 50px 0; }
+    footer { margin-top: 50px; padding: 20px 0; text-align: center; background-color: #343a40; color: #fff; }
+    html { scroll-behavior: smooth; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    section { animation: fadeIn 1s ease-in-out; }
+    .about-text { font-size: 1.5rem; color: #333; }
+    .navbar { background-color: #007bff; }
+    .nav-link { color: #fff; }
+    .nav-link:hover { color: #ccc; }
+    .logo { display: block; margin: auto; }
+    #about { background-color: #d4edda; } /* Light green */
+    #skills { background-color: #cfe2ff; } /* Light blue */
+    #projects { background-color: #d4edda; } /* Light green */
+    #resume { background-color: #cfe2ff; } /* Light blue */
+    #contact { background-color: #d4edda; } /* Light green */
+  </style>
+</head>
+<body>
+  <header style="background-color: #3982ca; padding: 10px 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="https://www.shutterstock.com/image-vector/letter-tk-lk-modern-initial-260nw-2354324081.jpg" alt="Logo" class="logo" width="200px" height="90px">
+        </div>
+        <div class="col-lg-6">
+          <nav>
+            <ul class="nav justify-content-end">
+              <li class="nav-item"><a class="nav-link" href="#home" style="color: #fff;">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about" style="color: #fff;">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills" style="color: #fff;">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects" style="color: #fff;">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#resume" style="color: #fff;">Resume</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact" style="color: #fff;">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <header class="text-center">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <h1>Hi all, I'm Keshava <span class="wave">👋</span></h1>
+          <p>A passionate web developer</p>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <section id="about">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>About Me</h2>
+        <p class="about-text">I'm passionate about leveraging my skills to contribute meaningfully to the tech industry. I am continuously exploring new technologies and frameworks to stay updated with the latest trends in software development. My goal is to become a proficient full-stack developer capable of creating innovative and impactful solutions.</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="1.jpg" alt="about Photo" class="img-fluid">
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="https://www.resumewriter.sg/wp-content/uploads/2023/10/technical-skills-for-resume.jpg" alt="Skills Image" class="img-fluid">
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="text-center mb-4">Technical Skills</h2>
+          <ul>
+            <li class="mb-2"><i></i> C</li>
+            <li class="mb-2"><i></i> JAVA</li>
+            <li class="mb-2"><i></i> Python</li>
+            <li class="mb-2"><i></i> HTML, CSS, Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Voice Assistant for Disabled People</h5>
+              <p class="card-text">This system is designed to be used efficiently on desktops. Personal assistant software improves user productivity by managing routine tasks of the user.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Health Care Management System</h5>
+              <p class="card-text">A real-time web application where you can book an appointment and also donate and receive blood.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Community Service</h5>
+              <p class="card-text">As part of this project, we provided health hygiene and career guidance for students who are in and below 10th standard.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="mb-4">Resume</h2>
+          <p class="lead mb-4">Download my resume to learn more about my skills and experience.</p>
+          <a href="file:///C:/Users/Keshava%20Reddy/OneDrive/Desktop/keshava%20port%20folio/Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="https://static.vecteezy.com/system/resources/previews/017/055/715/non_2x/contact-us-button-web-banner-templates-illustration-free-vector.jpg" alt="Contact Image" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-details">
+            <h2>Contact Me</h2>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-envelope"></i> Email: kambalakeshava@gmail.com</li>
+              <li><i class="fas fa-phone"></i> Phone: +1234567890</li>
+              <li><i class="fas fa-map-marker-alt"></i> Address: Kurnool</li>
+            </ul>
+            <div class="social-icons">
+              <a href="https://github.com/KeshavaReddy07"><i class="fab fa-github"></i></a>
+              <a href="http://linkedin.com/in/kambala-keshava-reddy-0a7199258"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>&copy; 2024 Kambala Keshava Reddy. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
